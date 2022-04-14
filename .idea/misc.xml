@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/90432/Desktop/dotchat_android/app/src/main/res/drawable/button_login.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/90432/Desktop/dotchat_android/app/src/main/res/layout/activity_lacuncher_acvitity.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/90432/Desktop/dotchat_android/app/src/main/res/layout/activity_welcome.xml" value="0.33" />
+        <entry key="..\:/Users/90432/Desktop/dotchat_android/app/src/main/res/layout/circile_logo_layout.xml" value="0.41203703703703703" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

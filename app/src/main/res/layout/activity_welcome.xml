@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="40dp">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="160dp"
+            android:text="欢迎加入"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="70sp"
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="289dp"
+            android:layout_height="22dp"
+            android:text="寥寥几步，开启新世界！"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="开始注册账号"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!--使用您的手机号注册reg_with_your_phone_number-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_login"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:layout_width="143dp"
+                android:layout_height="24dp"
+                android:text="使用您的手机号注册"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <!--使用您的电子邮箱注册reg_with_your_email-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_login"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/vector" />
+
+            <TextView
+                android:layout_width="143dp"
+                android:layout_height="24dp"
+
+                android:text="使用您的Email注册"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <!--已经有账号了吗Linearlayout-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="已经有账号了吗？"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="18dp"
+                android:text="登入"
+                android:textColor="#ff575dfb"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

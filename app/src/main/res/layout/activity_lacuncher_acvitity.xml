@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".ui.LauncherActivity">
+
+    <ImageView
+        android:id="@+id/Launcher_logo_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="135dp"
+        android:elevation="5dp"
+        android:src="@drawable/logo_circle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30sp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dotchat"
+            android:textColor="@color/dotchat_red"
+            android:textSize="58dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="chuhelan.com提供服务"
+            android:textColor="#FF3D3D3D"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
